@@ -1,0 +1,15 @@
+//************************************************************
+//+ Fehler_MehrereTitel - Mehrere Titelzeilen
+//************************************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A; 3; -; 2,3,4
+2; B; 8; 1; 6
+//+ Fehlerbeispiel 16 - Mehrere Titelzeilen
+3; C; 2; 1; 6
+4; D; 10; 3; 5
+5; E; 13; 4; 6
+6; F; 4; 2,3,5; 7,8
+7; G; 1; 6; 9
+8; H; 2; 6; 10
+9; I; 2; 7; 10
+10; K; 1; 8,9; -

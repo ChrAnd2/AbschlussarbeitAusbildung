@@ -1,0 +1,26 @@
+//******************************************
+//+ Fehler_NetzplanNichtZusammenhängend - Netz nicht zusammenhängend
+//******************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A; 10; -; 2,3,4
+2; B; 5; 1; 7
+3; C; 4; 1; 7,11
+4; D; 8; 1; 8
+5; E; 7; -; 12
+6; F; 5; -; 9
+7; G; 5; 2,3; 10
+8; H; 2; 4; 11
+9; I; 5; 6; 12,13
+10; J; 8; 7; 14
+11; K; 10; 3,8; 14,15
+12; L; 5; 5,9; -
+13; M; 5; 9; -
+14; N; 9; 10,11; 16
+15; O; 20; 11,12,13; 16
+16; P; 10; 14,15; -
+
+
+*************************************
+Es ist ein Fehler aufgetreten.
+*************************************
+NetzplanException: Der Netzplan ist nicht zusammenhängend.

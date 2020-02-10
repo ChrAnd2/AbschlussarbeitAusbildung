@@ -1,0 +1,27 @@
+Beispiel 5 IT-Installation
+
+Vorgangsnummer; Vorgangsbezeichnung; D; FAZ; FEZ; SAZ; SEZ; GP; FP
+1; Infrastrukturbedarf ermitteln; 1.0; 0.0; 1.0; 0.0; 1.0; 0.0; 0.0
+2; Arbeitsplatzbedarf ermitteln; 2.0; 1.0; 3.0; 1.0; 3.0; 0.0; 0.0
+3; Netzwerkplan entwerfrn; 1.0; 1.0; 2.0; 6.0; 7.0; 5.0; 0.0
+4; Peripheriebedarf ermitteln; 1.0; 2.0; 3.0; 15.0; 16.0; 13.0; 0.0
+5; Hardware PC + Server beschaffen; 4.0; 3.0; 7.0; 3.0; 7.0; 0.0; 0.0
+6; Software beschaffen; 2.0; 7.0; 9.0; 16.0; 18.0; 9.0; 8.0
+7; Netzwerkzubehör beschaffen; 5.0; 7.0; 12.0; 7.0; 12.0; 0.0; 0.0
+8; Peripherie beschaffen; 1.0; 3.0; 4.0; 16.0; 17.0; 13.0; 13.0
+9; Hardware PC + Server aufbauen; 6.0; 7.0; 13.0; 8.0; 14.0; 1.0; 0.0
+10; Server installieren; 3.0; 13.0; 16.0; 14.0; 17.0; 1.0; 0.0
+11; Netzwerk aufbauen; 5.0; 12.0; 17.0; 12.0; 17.0; 0.0; 0.0
+12; PC-Image anlegen; 1.0; 17.0; 18.0; 18.0; 19.0; 1.0; 0.0
+13; Peripherie anschließen; 1.0; 17.0; 18.0; 17.0; 18.0; 0.0; 0.0
+14; Netzwerkplan dokumentieren; 2.0; 18.0; 20.0; 18.0; 20.0; 0.0; 0.0
+15; Server-Image anlegen; 1.0; 16.0; 17.0; 19.0; 20.0; 3.0; 3.0
+16; PC-Remote installieren; 1.0; 18.0; 19.0; 19.0; 20.0; 1.0; 1.0
+17; Gesamtdokumenation erstellen; 3.0; 20.0; 23.0; 20.0; 23.0; 0.0; 0.0
+
+Anfangsvorgang: 1
+Endvorgang: 17
+Gesamtdauer: 23.0
+
+Kritischer Pfad:
+1. 1->2->5->7->11->13->14->17

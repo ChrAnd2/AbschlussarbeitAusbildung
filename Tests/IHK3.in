@@ -1,0 +1,12 @@
+//******************************************
+//+ Beispiel 3
+//******************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; Kaffee mahlen; 1; -; 2
+2; Kaffee in Trichter füllen; 1; 1; 4
+3; Wasser kochen; 4; -; 4,7
+4; Kaffee brühen; 6; 2,3; 5
+5; Kaffee trinken; 3; 4; -; 
+6; Tee in Beutel füllen; 1; -; 7
+7; Tee aufsetzen; 5; 3,6; 8
+8; Tee trinken; 3; 7; -

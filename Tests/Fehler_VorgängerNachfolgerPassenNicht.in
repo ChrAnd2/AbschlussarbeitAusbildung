@@ -1,0 +1,11 @@
+//**************************************************************************************
+//+ Fehler_VorgängerNachfolgerPassenNicht - Vorgänger und Nachfolger passen nicht zusammen (Vorgänger fehlt)
+//**************************************************************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A; 21; -; 2,3
+2; B; 5; 1; 4
+3; C; 7; 1; 6
+4; D; 3; 2; 5,6
+5; E; 5; 4; 7
+6; F; 8; 3; 7
+7; G; 2; 5,6; -

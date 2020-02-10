@@ -1,0 +1,17 @@
+Installation von POI Kiosken
+
+Vorgangsnummer; Vorgangsbezeichnung; D; FAZ; FEZ; SAZ; SEZ; GP; FP
+1; Planung des Projekts; 1.0; 0.0; 1.0; 0.0; 1.0; 0.0; 0.0
+2; Beschaffung der POI-Kioske; 25.0; 1.0; 26.0; 1.0; 26.0; 0.0; 0.0
+3; Einrichtung der POI-Kioske; 10.0; 26.0; 36.0; 26.0; 36.0; 0.0; 0.0
+4; Netzwerk installieren; 6.0; 1.0; 7.0; 29.0; 35.0; 28.0; 0.0
+5; Netzwerk einrichten; 1.0; 7.0; 8.0; 35.0; 36.0; 28.0; 28.0
+6; Aufbau der POI Kioske; 2.0; 36.0; 38.0; 36.0; 38.0; 0.0; 0.0
+7; Tests und Nachbesserungen der POI Kioske; 1.0; 38.0; 39.0; 38.0; 39.0; 0.0; 0.0
+
+Anfangsvorgang: 1
+Endvorgang: 7
+Gesamtdauer: 39.0
+
+Kritischer Pfad:
+1. 1->2->3->6->7

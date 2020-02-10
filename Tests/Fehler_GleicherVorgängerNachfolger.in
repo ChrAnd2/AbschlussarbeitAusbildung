@@ -1,0 +1,16 @@
+//**********************************************************************
+//+ Fehler_GleicherVorgängerNachfolger - Gleiche Zahlen in Vorgänger und Nachfolger
+//**********************************************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A; 25; -; 4,5,8
+2; B; 8; -; 3
+3; C; 5; 2; 2
+4; D; 9; 1; 6
+5; E; 21; 1; 7
+6; F; 9; 3,4; 7
+7; G; 6; 5,6; 9
+8; H; 15; 1; 10
+9; I; 2; 7; 10
+10; J; 1; 8,9; 11
+11; K; 2; 10; -
+

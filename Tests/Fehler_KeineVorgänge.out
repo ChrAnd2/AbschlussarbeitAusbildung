@@ -1,0 +1,10 @@
+//******************************************
+//+ Fehler_KeineVorgänge - keine Daten
+//******************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+
+
+*************************************
+Es ist ein Fehler aufgetreten.
+*************************************
+EingabeException: Die Datei enthält keine Vorgänge.

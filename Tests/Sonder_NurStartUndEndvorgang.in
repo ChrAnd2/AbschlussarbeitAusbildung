@@ -1,0 +1,6 @@
+//******************************************
+//+ Sonderfall - Nur ein Start- und Endvorgang
+//******************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; Problemanalyse; 2; -; 2
+2; Grobplanung; 3; 1; -

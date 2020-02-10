@@ -1,0 +1,23 @@
+//******************************************
+//+ Fehler_KeinEndvorgang 13 - kein Endvorgang
+//******************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A; 2; -; 2,3
+2; B; 14; 1; 4,5,6
+3; C; 1; 1; 12
+4; D; 1; 2; 7
+5; E; 2; 2; 7
+6; F; 1; 2; 7
+7; G; 1; 4,5,6; 8,9
+8; H; 5; 7; 11
+9; I; 2; 7; 10
+10; J; 2; 9; 11;
+11; K; 1; 8,10,13; 12
+12; L; 7; 3,11; 13
+13; M; 1; 12; 11
+
+
+*************************************
+Es ist ein Fehler aufgetreten.
+*************************************
+NetzplanException: Der Netzplan enthält keinen Endvorgang.

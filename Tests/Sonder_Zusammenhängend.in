@@ -1,0 +1,20 @@
+//***********************************************
+//+ Sonder_Zusammenhängend	     Viele Start- und Endvorgänge, zwei Netzpläne die nur über einen Vorgang verbunden sind.
+//***********************************************
+//Vorgangsnummer; Vorgangsbezeichnung; Dauer; Vorgänger; Nachfolger
+1; A1; 1; -; 7
+2; A2; 1; -; 8
+3; A3; 1; -; 8
+4; A4; 1; -; 11
+5; A5; 1; -; 9
+6; A6; 1; -; 16
+7; A; 1; 1; 10
+8; B; 1; 2,3; 10,11
+9; C; 1; 5; 11,15,16
+10; D; 1; 7,8; 12
+11; E; 1; 8,4,9; 13,14
+12; E1; 1; 10; -
+13; E2; 1; 11; -
+14; E3; 1; 11; -
+15; E4; 1; 9; -
+16; E5; 1; 9,6; -
